@@ -7,3 +7,14 @@ __pycache__/
 node_modules/
 .github/
 creds.json
+
+# Sensitive credentials
+.env
+.env.*
+!.env.example
+credentials.json
+creds.json
+service-account*.json
+lovesandwiches-363812-*.json
+*.pem
+*.key
